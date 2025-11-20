@@ -132,4 +132,15 @@ words12 = "Labas rytas"
 apsukti_zodziai(words12)
 
 
+print("dialog box")
+print("dialog box")
+print("dialog box")
+print("dialog box")
+print("dialog box")
+print("dialog box")
+print("dialog box")
+print("dialog box")
+print("dialog box")
+print("dialog box")
+
 
