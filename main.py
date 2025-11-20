@@ -144,4 +144,4 @@ print("dialog box!")
 print("dialog box!")
 
 
-print(":D")
+print("=P =D")
