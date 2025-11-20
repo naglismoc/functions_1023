@@ -108,10 +108,28 @@ def arr_avg_round(arr):
     sum = 0
     for num in arr:
         sum += num
-    return round((sum/len(arr)))
+    return round((sum / len(arr)))
+def apsukti_zodziai(words12:str):
+    galutinis_sarasas= []
+    isskaidytas_sakinys = words12.split()
+    for word in isskaidytas_sakinys:
+        apsuktas = word[::-1]
+        galutinis_sarasas.append(apsuktas)
+    galutinis_sakinys = " ".join(galutinis_sarasas)
+    print(galutinis_sakinys)
+words12 = "Labas rytas"
+apsukti_zodziai(words12)
 
-
-
+print('------------------------12.1----------------------------------------')
+def apsukti_zodziai(words12:str):
+    galutinis= []
+    isskaidytas_sakinys = words12.split()
+    for word in isskaidytas_sakinys:
+        apsuktas = word[::-1]
+        galutinis.append(apsuktas)
+    print(f"Sakinio zodziai parayti is kitos puses: {galutinis}")
+words12 = "Labas rytas"
+apsukti_zodziai(words12)
 
 
 
